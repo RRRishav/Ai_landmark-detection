@@ -4,32 +4,48 @@
   <img src="https://img.shields.io/badge/status-in%20progress-yellow" alt="status" />
   <img src="https://img.shields.io/badge/made%20with-React-blue" alt="React" />
   <img src="https://img.shields.io/badge/AI-TensorFlow-orange" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/webcam-enabled-brightgreen" alt="webcam" />
 </p>
 
 <p align="center">
-  A web-based AI project that detects and visualizes key landmarks (e.g. facial features, body points, or geographical markers) using machine learning and computer vision. Built using <strong>React</strong>, <strong>Vite</strong>, and <strong>TensorFlow</strong>.
+  A real-time AI-based landmark detection web app built with <strong>React</strong>, <strong>Vite</strong>, and <strong>TensorFlow.js</strong>.  
+  It uses your <strong>webcam</strong> to detect key landmarks live in the browser!
 </p>
 
 ---
 
 ## ✨ Features
 
-- 📷 Real-time camera input
-- 🧠 AI-based landmark detection using TensorFlow
-- 🖼️ Visual overlays for detected points
-- ⚡ Lightweight and blazing fast Vite + React frontend
-- 📱 Responsive design for mobile & desktop
+- 🎥 Real-time webcam input
+- 🧠 AI-based landmark detection with TensorFlow.js
+- ⚡ Lightweight frontend using React + Vite
+- 📱 Fully responsive design
+- 🖼️ Overlays for detected landmarks
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Getting Started
 
-> Make sure you have **Node.js** installed before proceeding.
+### 🔧 Prerequisites
+
+- Node.js (v14 or above)
+- A device with a webcam
+
+---
+
+### 📦 Installation
 
 ```bash
 # Clone the repository
 git clone https://github.com/RRRishav/Ai_landmark-detection.git
 cd Ai_landmark-detection
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
 
 # Install dependencies
 npm install
